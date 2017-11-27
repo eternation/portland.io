@@ -1,0 +1,210 @@
+@import "bourbon"
+@import "fonts"
+@import "libs"
+@import "vars"
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+html, body
+	height: 100%
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.75
+	font-family: $default-font
+	overflow-x: hidden
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+
+
+
+
+.logo
+	margin: 50px 0px
+
+.mnu-line
+	ul
+		list-style-type: none
+		text-align: center
+		margin: 0px
+		
+		li
+			display: inline-block
+			padding: 0 10px
+			font-style: Montserrat Regular
+			font-size: 16px
+
+.number
+	font-size: 16px
+	text-transform: uppercase
+	position: relative
+	padding-top: 0px
+
+
+
+	
+	img
+		weight: 20px
+		height: 25px
+		margin-right: 10px
+
+.number_figure
+	border-radius: 20px 
+	background-color: #e3e8f0
+	padding: 7px 15px
+	font-weight: 600
+	cursor: pointer
+	text-align: center
+	display: inline-block
+	margin-left: -20px
+	margin-top: -10px
+	position: relative
+	
+
+
+.button
+	text-transform: uppercase
+	font-size: 14px
+	border: 2px solid #e3e8f0
+	border-radius: 30px
+	cursor: pointer
+	display: inline-block
+	padding: 10px 20px
+	line-height: 20px
+	text-align: center
+	font-weight: 600
+	margin-top: -8px
+
+.submenu
+	padding-left: 0px
+	margin-top: 20px
+	background-image: url("/img/line.png")
+	background-repeat: no-repeat
+	background-position: top
+	background-size: contain
+	&:before
+		content: url("../img/two-line.png")
+		position: absolute
+		right: 505px
+		top: 114px
+	
+
+
+	.submenu_line
+		ul
+			list-style-type: none
+			text-align: left
+			margin: 15px 0px
+			padding: 0px 
+			
+			li
+				display: inline-block
+				padding: 0 5px
+				font-style: Montserrat Regular
+				font-size: 12px
+				text-transform: uppercase
+				font-weight: 600
+				color: #cecedc
+				&:hover
+					color: #000
+					text-decoration: none
+					cursor: pointer
+				
+
+
+	.submenu_search
+		display: inline-block
+		margin-top: 10px 
+		margin-left: 0px
+		padding: 0px 0px
+		color: #cecedc
+		font-weight: 600
+	
+	img
+		height: 14px
+		width: 14px
+		position: relative
+		display: inline-block
+		color: #000
+		vertical-align: bottom
+		
+
+	input		
+		font-size: 14px
+		padding-left: 5px
+		line-height: 40px
+		width: 100%		
+		border: none		
+		text-align: left
+		background-color: transparent
+		display: inline-block
+		position: relative
+	
+	
+
+	.submenu_one-part
+		display: inline-block
+		margin: 20px 0px
+		padding: 0 10px
+		font-style: Montserrat Regular
+		font-size: 12px
+		text-transform: uppercase
+		font-weight: 600
+		color: #cecedc
+		&:hover
+			color: #000
+			text-decoration: none
+			cursor: pointer
+	
+.main
+	background-image: url("/img/iphone_6.png")
+	background-repeat: no-repeat
+	background-size: contain
+	height: 916px
+	color: #FFF
+	margin-top: -5px
+	.main-text
+		margin-top: 80px
+		span
+			font-size: 42px
+			line-height: 40px
+		p
+			font-size: 14px
+
+		.button
+			background-color: #2754eb
+			padding: 8px 40px
+			border: none
+			margin-top: 15px
+
+		
+	
+
+
+@import "media" // Всегда в конце
